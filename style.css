@@ -1,0 +1,93 @@
+body {
+
+background-color:#FDFFFC;
+color: #464F51;
+font-family: 'Lora', serif;
+font-size: 16px; 
+font-weight: lighter;
+
+
+
+}
+
+
+h1 {color: #755B69;
+font-family: font-family: 'Roboto Mono', monospace;
+font size: 32px; 
+font-weight: 900;
+letter-spacing: 1px; 
+#SandrineMarcous { border-radius: 50%; 
+}
+
+} 
+
+h2,h3,h4,h5 {color: #C2948A;
+font-family: helvetica;
+font size: 10px; 
+font-weight: 200;
+letter-spacing: 0px; }
+
+h5 {color: #C2948A }
+
+
+a{ text text-decoration: none;
+color: purple; 
+font-weight: 600;
+font-size: 30px;}
+
+a:hover { color: blue;
+}
+
+/*cutoms design with class*/
+
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.imag-circle {
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display:  inline ;
+	padding: 10px;
+
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+
+}
+
+
+.list-inline i:hover {
+	color: black;
+	
+}
+
+@media (max-width: 760px) {
+ .container {
+ 	width: 600px;
+ }
+
+@media (max-width: 500px) {
+ .container {
+ 	width: 400px;
+ }
